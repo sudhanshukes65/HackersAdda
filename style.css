@@ -85,6 +85,7 @@ ul li a:hover{
     display: inline-block;
 }
 .btn{
+    cursor: pointer;
     width: 50px;
     height: 36px;
     margin-left: -4px;
@@ -92,12 +93,13 @@ ul li a:hover{
 }
 .ad{
     margin: auto;
+    margin-top: 6px;
     width: 60vw;
     height: 65vh;
     
 }
 .content{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 60vw;
     height: 65vh;
     display: grid;
@@ -107,8 +109,26 @@ ul li a:hover{
     row-gap: 10px;
 }
 .card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
+    border-radius: 3px;
     border: 2px solid black;
+}
+.img{
+    display: inline-block;
+    
+    width: 151px;
+}
+.img img{
+    margin-top: 30px;
+    width: 151px;
+}
+.process{
+     display: inline-block;
+}
+.process ul{
+    margin-left: 69px;
+}
+.process ul li{
+    margin: 15px 0px;
+    display: block;
 }
