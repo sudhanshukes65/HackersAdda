@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+    height: 200vh;
+    background-color: bisque;
+}
+nav{
+    height: 50px;
+    background-color:azure;
+}
+.logo{
+    margin-top: 6px ;
+    margin-left: 5px;
+    display: inline-block;
+}
+.logo img{
+    height: 30px;
+}
+ul{
+    
+    
+    margin-left: 40vw;
+    display: inline-block;
+}
+
+ul li{
+    
+    margin: 0px 5px;
+    display: inline-block;
+}
+ul li a{
+    color: black;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 19px;
+}
+ul li a:hover{
+    background-color: blue;
+}
+.trip{
+    height: 43vh;
+}
+.trip img{
+    width: 80vw;
+    height: 44vh;
+}
+.search{
+    border: 2px solid rgb(63, 61, 61);
+    border-radius: 4px;
+    top: 14vh;
+    height:35px;
+    position: absolute;
+    left: 33vw;
+    position: absolute;
+}
+
+.city{
+    background-color: rgb(204, 204, 234);
+    display: inline-block;
+}
+
+.city input{
+    
+    color: white;
+    background-color: rgb(204, 204, 234);
+    height: 34px;
+    border: none;
+    display: inline-block;
+}
+
+.ask{
+    display: inline-block;
+}
+.ask input{
+    margin-left: -4px;
+    width: 20vw;
+    height: 34px;
+    border: none;
+    display: inline-block;
+}
+.btn{
+    width: 50px;
+    height: 36px;
+    margin-left: -4px;
+    background-color: yellow;
+}
+.ad{
+    margin: auto;
+    width: 60vw;
+    height: 65vh;
+    
+}
+.content{
+    border: 2px solid black;
+    width: 60vw;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid black;
+}
